@@ -5,14 +5,19 @@ import { ProjectCard } from "./ProjectCard";
 export const Projects = () => {
   const projects = [
     {
-      title: "Swift App",
-      desc: "Simple app for meal preparation to help plan dinner for my family",
+      title: "Meals & Recipes (iOS)",
+      desc: "Simple iOS app for meal preparation to help plan dinner for my family. Built with SwiftUI",
       link: "https://github.com/escosio/MealsAndRecipes",
     },
     {
       title: "Alejo Minis",
       desc: "React site for a friend mini painter",
       link: "https://alejo-minis.vercel.app/",
+    },
+    {
+      title: "Meals & Recipes (Web)",
+      desc: "Same as the iOS app but in React.js so I don't have to get an Apple Developer license.",
+      link: "https://meals-and-recipes-web.vercel.app/"
     },
     {
       title: "Espresso practice",
