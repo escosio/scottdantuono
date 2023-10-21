@@ -8,11 +8,13 @@ function App() {
     <div className="App">
       {/* <header className="App-header"></header> */}
       <Header />
+      {/* TODO add carrots to open section bodies */}
       <Projects />
       <Skills />
       {/* About me */}
       <footer>
-        <a href="mailto: scottd26@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        <a href="/">top</a>
+        {/* <a href="mailto: scottd26@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a> */}
       </footer>
     </div>
   );
