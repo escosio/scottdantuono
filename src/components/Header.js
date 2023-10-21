@@ -7,7 +7,7 @@ export const Header = () => {
     <div className="section"> 
       <h1>Hello, I'm Scott D.</h1>
       <p className="subtext fade-in-text">
-        I've been doing QA for 10 years and now I want to build stuff.
+        I've been doing QA for 10 years and now I want to build stuff too.
       </p>
       <div className="socialLinks">
         <li>
