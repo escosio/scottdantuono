@@ -24,7 +24,7 @@ export const Projects = () => {
   return (
     <div id="projects" className="section">
       <h2>Projects</h2>
-      <p>Here are some things I have been working</p>
+      <p>Here are some things I have been working on:</p>
       {projects.map((project, i) => (
         <div className="project-card">
           <a href={project.link}>

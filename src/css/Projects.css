@@ -1,13 +1,15 @@
 #projects div {
-    display: float;
+    display: flexbox;
     text-wrap: wrap;
+    padding: auto;
+    /* text-align: center; */
 }
 
 .project-card {
     /* background-color: grey; */
     background-image: url("");
-    /* max-width: 20%; */
-    padding: 2%;
+    /* max-width: 50%; */
+    padding: 1%;
     margin: 2% 2% auto;
     border-radius: 25px;
     opacity: 70%;

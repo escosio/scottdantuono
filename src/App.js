@@ -11,7 +11,9 @@ function App() {
       <Projects />
       <Skills />
       {/* About me */}
-      <footer>Thanks for coming</footer>
+      <footer>
+        <a href="mailto: scottd26@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+      </footer>
     </div>
   );
 }
