@@ -1,13 +1,13 @@
 import React from "react";
 
 export const Skills = () => {
-    const skills = ["Python", "React", "Javascript", "Cypress"]
+    const skills = ["Python", "React.js", "Javascript", "Cypress"]
     return(
-        <div id="skills" className="skills section">
-            <h2>Skillz</h2>
+        <ul id="skills" className="skills section">
+            <h2>Skills</h2>
             {/* <li>QA Automation</li> */}
             <h3>Languages</h3>
-            {skills.map((skill, i) => <p>{skill}</p>)}
-        </div>
+            {skills.map((skill, i) => <li>{skill}</li>)}
+        </ul>
     )
 }

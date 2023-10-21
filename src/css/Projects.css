@@ -1,16 +1,21 @@
-#projects {
-    display: inline;
+#projects div {
+    display: float;
+    text-wrap: wrap;
 }
 
 .project-card {
-    background-color: grey;
+    /* background-color: grey; */
     background-image: url("");
     /* max-width: 20%; */
     padding: 2%;
-    margin: 2%;
-    /* color: white; */
+    margin: 2% 2% auto;
     border-radius: 25px;
     opacity: 70%;
+    border: 2px 2px black;
+}
+
+.project-card:hover {
+    background-color: lightgray;
 }
 
 :hover {
@@ -21,15 +26,19 @@
     text-shadow: 1px 1px black;
 }
 
-.project-card p {
+/* .project-card p {
     color: white;
-}
+} */
 
 li {
     list-style-type: none;   
 }
+a {
+    color: black;
+}
 
-h3 a.link {
+a:link {
     text-decoration: none;
+    color: black;
 }
 

@@ -11,6 +11,7 @@ function App() {
       <Projects />
       <Skills />
       {/* About me */}
+      <footer>Thanks for coming</footer>
     </div>
   );
 }
