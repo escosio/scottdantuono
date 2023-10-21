@@ -2,6 +2,7 @@
   text-align: center;
   /* font-family: 'Karla', sans-serif; */
   font-family: 'Quicksand', sans-serif;
+  margin: auto 10% auto;
 }
 
 .App-logo {
@@ -91,14 +92,7 @@ nav li {
 
 .section {
   min-height: 200px;
-  /* width: 80%; */
 }
-
-/* h3 {
-  color: white;
-  background-color: blue;
-  text-align: start;
-} */
 
 button {
   padding: 5%;
@@ -113,4 +107,17 @@ button {
 footer {
   padding: 3%;
   font-size: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  /* margin: 0; */
+}
+
+#skills {
+  display: inline;
+  column-count: 2;
 }

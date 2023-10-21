@@ -26,12 +26,12 @@ export const Projects = () => {
       <h2>Projects</h2>
       <p>Here are some things I have been working on:</p>
       {projects.map((project, i) => (
+          <a href={project.link} target="_blank">
         <div className="project-card">
-          <a href={project.link}>
             <h3>{project.title}</h3>
-          </a>
           <p>{project.desc}</p>
         </div>
+        </a>
       ))}
       {/* <ProjectCard project={projects[1]}/> */}
     </div>
