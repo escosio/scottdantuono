@@ -1,0 +1,35 @@
+#projects {
+    display: inline;
+}
+
+.project-card {
+    background-color: grey;
+    background-image: url("");
+    /* max-width: 20%; */
+    padding: 2%;
+    margin: 2%;
+    /* color: white; */
+    border-radius: 25px;
+    opacity: 70%;
+}
+
+:hover {
+    opacity: 100%;
+}
+
+.project-card h1 {
+    text-shadow: 1px 1px black;
+}
+
+.project-card p {
+    color: white;
+}
+
+li {
+    list-style-type: none;   
+}
+
+h3 a.link {
+    text-decoration: none;
+}
+
