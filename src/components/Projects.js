@@ -10,7 +10,7 @@ export const Projects = () => {
     },
     {
       title: "Alejo Minis",
-      desc: "React site for a friend mini painter",
+      desc: "React site for a friend mini painter who does commissions",
       link: "https://alejo-minis.vercel.app/",
     },
     {
@@ -32,7 +32,7 @@ export const Projects = () => {
       <p>Here are some things I have been working on:</p>
       {projects.map((project, i) => (
           <a href={project.link} target="_blank">
-        <div sm className="project-card">
+        <div sm key={i} className="project-card">
             <h3>{project.title}</h3>
           <p>{project.desc}</p>
         </div>

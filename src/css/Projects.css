@@ -2,33 +2,24 @@
     display: inline-grid;
     text-wrap: wrap;
     flex-wrap: wrap;
-    /* align-items: start; */
-    /* padding: auto; */
-    /* text-align: center; */
 }
 
 .project-card-container {
-    /* display: flex; */
     align-items: start;
     flex-wrap: wrap;
   }
 
 .project-card {
-    /* background-color: grey; */
-    background-image: url("");
     padding: 2%;
     margin: 2% 2% auto;
     border-radius: 25px;
     opacity: 70%;
-    /* border: 2px 2px black; */
     width: 300px;
     background-color: lightyellow;
-    /* background-color: rgb(218, 214, 190); */
     height: 200px;
 }
 
 .project-card:hover {
-    /* background-color: lightgray; */
     background-color: goldenrod;
     color: white;
     opacity: 80%;
