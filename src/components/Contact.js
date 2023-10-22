@@ -4,10 +4,10 @@ export const Contact = () => {
 
     return(
         <div id="contact" className="section">
-            {/* <form>
+            <form>
                 <label>Name</label>
                 <input type="text"></input>
-            </form> */}
+            </form>
         </div>
     )
 }

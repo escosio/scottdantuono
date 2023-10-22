@@ -7,15 +7,13 @@ import { Contact } from "./components/Contact";
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header"></header> */}
       <Header />
       {/* TODO add carrots to open section bodies */}
       <Projects />
       <Skills />
       {/* About me */}
       <footer>
-        {/* <Contact /> */}
-        <a href="/">top</a>
+        {/* <a href="/">top</a> */}
         {/* <a href="mailto: scottd26@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a> */}
       </footer>
     </div>

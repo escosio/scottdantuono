@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/Projects.css";
-import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
   const projects = [
@@ -28,7 +27,8 @@ export const Projects = () => {
 
   return (
     <div id="projects" className="section project-card-container">
-      <h2>Projects</h2>
+      <h2>Projects <i class="fa-solid fa-code-branch"></i></h2>
+      {/* <i class="fa-solid fa-diagram-project"></i> */}
       <p>Here are some things I have been working on:</p>
       {projects.map((project, i) => (
           <a href={project.link} target="_blank">

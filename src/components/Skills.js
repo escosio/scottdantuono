@@ -1,11 +1,11 @@
 import React from "react";
 
 export const Skills = () => {
-    const langs = ["Python", "React.js", "Javascript", "Cypress.io"]
-    const tools = ["Jenkins", "Postman", "Github Actions", "AWS"]
+    const langs = ["Python", "React.js", "Javascript", "Cypress.io", "Espresso", "Linux/Unix"]
+    const tools = ["Github", "Jenkins", "Postman", "Github Actions", "AWS", "Docker","Flipper", "VS Code"]
     return(
         <div id="skills" className="skills section">
-            <h2>Skills</h2>
+            <h2>Skills <i class="fa-solid fa-screwdriver-wrench"></i></h2>
             {/* <li>QA Automation</li> */}
             <ul className="skill-list">
             <h3>Languages</h3>
