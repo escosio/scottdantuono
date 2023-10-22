@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Skills = () => {
-    const langs = ["Python", "React.js", "Javascript", "Cypress"]
+    const langs = ["Python", "React.js", "Javascript", "Cypress.io"]
     const tools = ["Jenkins", "Postman", "Github Actions", "AWS"]
     return(
         <div id="skills" className="skills section">

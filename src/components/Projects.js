@@ -27,12 +27,12 @@ export const Projects = () => {
   ];
 
   return (
-    <div id="projects" className="section">
+    <div id="projects" className="section project-card-container">
       <h2>Projects</h2>
       <p>Here are some things I have been working on:</p>
       {projects.map((project, i) => (
           <a href={project.link} target="_blank">
-        <div className="project-card">
+        <div sm className="project-card">
             <h3>{project.title}</h3>
           <p>{project.desc}</p>
         </div>

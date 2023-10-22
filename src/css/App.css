@@ -1,8 +1,10 @@
 .App {
   text-align: center;
-  /* font-family: 'Karla', sans-serif; */
   font-family: 'Quicksand', sans-serif;
-  margin: auto 10% auto;
+}
+
+.App p {
+  margin: 2% 10% 2%;
 }
 
 .App-logo {
@@ -56,6 +58,7 @@ p {
 p.visible {
   animation: fadeIn 4s;
 }
+
 .menu {
   text-align: right;
 }
@@ -88,11 +91,24 @@ nav li {
   opacity: 70%;
 }
 
+/* .header {
+  background-image: url("../assets/me.png");
+  opacity: 12%;
+} */
+
 /* Sections */
 
 .section {
   min-height: 200px;
   padding: 1%;
+}
+
+.section h2 {
+  /* color: white;
+  background-color: black; */
+  border-radius: 10px;
+  padding: .5% 2% .5%;
+  display:inline-block;
 }
 
 button {
@@ -113,17 +129,21 @@ ul {
 
 .skill-list {
   display: flexbox;
-  /* text-align: left; */
+  text-align: left;
+  margin: auto 20%;
   /* column-count: 2; */
 }
 
 .skill-item {
-  display: inline;
-  padding: 3%;
+  display: inline-flex;
+  padding: 2%;
+  background-color: gold;
+  border-radius: 10%;
+  margin: 1.5%;
 }
 
 .skill-item:hover {
-  color: gold;
+  color: white;
 }
 
 /* footer */

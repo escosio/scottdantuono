@@ -4,7 +4,7 @@ import resume from "../assets/scott_dantuono_resume.pdf"
 
 export const Header = () => {
   return (
-    <div className="section"> 
+    <div className="header section"> 
       <h1>Hello, I'm Scott D.</h1>
       <p className="subtext fade-in-text">
         I've been doing QA for 10 years and now I want to build stuff too.
