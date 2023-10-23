@@ -29,7 +29,7 @@ export const Header = () => {
           </a>
         </li>
       </div>
-      <p >Previously, I've worked at Peloton, SeatGeek and Meetup. Since being laid off in July, I have decided to focus on learning and completed courses in <b>AWS Solutions Architect</b>, Web Automation <b>Cypress.io</b> as well as a Full-Stack course using <b>React.js, Python, Flask</b> and <b>MongoDB</b>.  My last name D'Antuono is pronounced <i>(DAN-TWAN-NOH)</i></p>
+      <p >Previously, I've worked at Peloton, SeatGeek and Meetup. Over the past few months, I have completed courses in <b>AWS</b> for becoming a Solutions Architect Associate, Web Automation <b>Cypress.io</b> as well as a Full-Stack course using <b>React.js, Python, Flask</b> and <b>MongoDB</b>.  My last name D'Antuono is pronounced <i>(DAN-TWAN-NOH)</i></p>
     </div>
   );
 };
