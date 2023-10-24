@@ -11,10 +11,18 @@ function App() {
       {/* TODO add carrots to open section bodies */}
       <Projects />
       <Skills />
-      {/* About me */}
       <footer>
-        {/* <a href="/">top</a> */}
-        {/* <a href="mailto: scottd26@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a> */}
+      {/* About me */}
+        {/* <div className="footer-top">
+          <div>
+            <h3>About me</h3>
+            <p>I live in Brooklyn, NY and </p>
+          </div>
+          <div>
+            <Contact />
+          </div>
+        </div> */}
+        <p>Built in React.js in 2023</p>
       </footer>
     </div>
   );

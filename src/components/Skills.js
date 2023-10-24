@@ -1,8 +1,8 @@
 import React from "react";
 
 export const Skills = () => {
-    const langs = ["Python", "React.js", "Javascript", "Cypress.io", "Espresso", "Linux/Unix"]
-    const tools = ["Github", "Jenkins", "Postman", "Github Actions", "AWS", "Docker","Flipper", "VS Code"]
+    const langs = ["Python", "React.js", "Javascript", "Kotlin", "Linux/Unix"]
+    const tools = ["Cypress.io", "Espresso", "Git", "Jenkins", "Postman", "Github Actions", "AWS", "Docker","Flipper", "VS Code"]
     const testing = ["Web/API testing", "Mobile testing", "Hardware testing", "Test Planning", "Manual & Automated testing", "Release Managment"]
     return(
         <div id="skills" className="skills section">

@@ -5,21 +5,21 @@ export const Projects = () => {
   const projects = [
     {
       title: "Meals & Recipes (iOS)",
-      desc: "Simple iOS app for meal preparation to help plan dinner for my family. Built with SwiftUI",
+      desc: "iOS app for meal preparation to help plan dinner for my family. The recipe data is pulled from a local json file. Built with SwiftUI.",
       link: "https://github.com/escosio/MealsAndRecipes",
     },
     {
       title: "Alejo Minis",
-      desc: "React site for a friend mini painter who does commissions and has a working contact form through EmailJS.",
+      desc: "React site for a friend mini painter, includes an EmailJS contact form to help arrange commissions.",
       link: "https://alejo-minis.vercel.app/",
     },
     {
       title: "Meals & Recipes (Web)",
-      desc: "Same as the iOS app but in React.js so I don't have to get an Apple Developer license. Mostly using React Bootstrap.",
+      desc: "Reciprocal to the iOS app but in React.js so I don't have to get an Apple Developer license. Mostly using React Bootstrap.",
       link: "https://meals-and-recipes-web.vercel.app/"
     },
     {
-      title: "Espresso practice",
+      title: "Espresso Practice",
       desc: "Learning Espresso at Peloton through a mentorship program. This is where I was introduced to Kotlin & then Espresso before becoming a contributor to the actual test repo.",
       link: "https://github.com/pl-peloton/scott-pai-emp",
     },
