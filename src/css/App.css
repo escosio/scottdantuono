@@ -33,6 +33,13 @@ p.visible {
   animation: fadeIn 4s;
 }
 
+.bio-paragraph {
+  max-width: 70%;
+  /* margin: auto; */
+  display: inline-block;
+  text-align: center;
+}
+
 .menu {
   text-align: right;
 }
