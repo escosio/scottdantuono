@@ -3,6 +3,7 @@ import { Header } from "./components/Header";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
+import About from "./components/About";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       {/* TODO add carrots to open section bodies */}
       <Projects />
       <Skills />
+      {/* <About /> */}
       <footer>
       {/* About me */}
         {/* <div className="footer-top">
@@ -22,7 +24,7 @@ function App() {
             <Contact />
           </div>
         </div> */}
-        <p>Built in React.js in 2023</p>
+        <p>Made with React.js in 2023 | <a style={{"color":"white"}} href="https://github.com/escosio/scottdantuono">github</a> </p>
       </footer>
     </div>
   );

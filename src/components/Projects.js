@@ -9,14 +9,14 @@ export const Projects = () => {
       link: "https://github.com/escosio/MealsAndRecipes",
     },
     {
-      title: "Alejo Minis",
-      desc: "React site for a friend mini painter, includes an EmailJS contact form to help arrange commissions.",
-      link: "https://alejo-minis.vercel.app/",
-    },
-    {
       title: "Meals & Recipes (Web)",
       desc: "Reciprocal to the iOS app but in React.js so I don't have to get an Apple Developer license. Mostly using React Bootstrap.",
       link: "https://meals-and-recipes-web.vercel.app/"
+    },
+    {
+      title: "Alejo Minis",
+      desc: "React site for a friend mini painter, includes an EmailJS contact form to help arrange commissions.",
+      link: "https://alejo-minis.vercel.app/",
     },
     {
       title: "Espresso Practice",
