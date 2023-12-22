@@ -14,6 +14,11 @@ export const Projects = () => {
       link: "https://meals-and-recipes-web.vercel.app/"
     },
     {
+      title: "Play the Lotto",
+      desc: "Python script that simulates playing the Lotto. It generates a random play of six lotto numbers (within the range of 0-70) and then keeps playing until you win. Fun fact: I have confirmed this script works but still have never won!",
+      link: "https://gist.github.com/escosio/d48bb7f98ef827a7ef183c597f1be6fd#file-lotto-py"
+    },
+    {
       title: "Alejo Minis",
       desc: "React site for a friend mini painter, includes an EmailJS contact form to help arrange commissions.",
       link: "https://alejo-minis.vercel.app/",
