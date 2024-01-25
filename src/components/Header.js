@@ -29,7 +29,7 @@ export const Header = () => {
           </a>
         </li>
       </div>
-      <p className="bio-paragraph">Previously, I've worked at Peloton, SeatGeek and Meetup. I wanted to take my skills to the next level so this year I took courses in <a href="https://verify.acloud.guru/DC5142641436?_ga=2.189816552.291013847.1694446391-257866084.1689853720"><b>AWS</b></a>, <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-faeec6b3-cae5-453e-be78-b6aaf13ebf84.jpg"><b>Cypress.io</b> Web Automation</a>, <a href="https://www.udemy.com/course/full-stack-web-development-bootcamp/"><b>Full-Stack web development</b></a> (using <b>React.js, Python, Flask</b> and <b>MongoDB</b>) and <a href="https://www.coursera.org/learn/introduction-to-android-mobile-application-development/home/welcome"><b>Android Development</b></a>!  My last name D'Antuono is pronounced <i>(DAN-TWAN-NOH)</i> and I live in Brooklyn, NY.</p>
+      <p className="bio-paragraph">Previously, I've worked at Peloton, SeatGeek and Meetup. I wanted to take my skills to the next level so recently I've been studying <b>alogrithms</b> and took courses in <a href="https://verify.acloud.guru/DC5142641436?_ga=2.189816552.291013847.1694446391-257866084.1689853720"><b>AWS</b></a>, <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-faeec6b3-cae5-453e-be78-b6aaf13ebf84.jpg"><b>Cypress.io</b> Web Automation</a> and <a href="https://www.udemy.com/course/full-stack-web-development-bootcamp/"><b>Full-Stack web development</b></a> (using <b>React.js, Python, Flask</b> and <b>MongoDB</b>).  My last name D'Antuono is pronounced <i>(DAN-TWAN-NOH)</i> and I live in Brooklyn, NY.</p>
     </div>
   );
 };
