@@ -1,0 +1,22 @@
+.about {
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding-top: 2px;
+}
+
+.about-container {
+	display: inline-flex;
+	width: 70%;
+}
+
+.selfpic {
+	border-radius: 50%;
+	opacity: 75%;
+	padding: 5px;
+	margin-left: 100px;
+}
+
+.selfpic:hover {
+	opacity: 100%;
+}
