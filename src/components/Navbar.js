@@ -1,19 +1,26 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [menuOpen, toggleMenuState] = useState(false);
 
   return (
-      <nav onClick={() => toggleMenuState(true)} className="menu">
-      <li>Projects</li>
-      <li>Skills</li>
-      <li>Contact</li>
-      {/* {!menuOpen ? (
-        <span class="material-symbols-outlined">menu</span>
-      ) : (
-        <span class="material-symbols-outlined">close</span>
-      )} */}
+    <nav onClick={() => toggleMenuState(!menuOpen)} className="menu">
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/projects">Projects</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
+        <li>
+          <Link to="/skills">Skills</Link>
+        </li>
+      </ul>
     </nav>
   );
 };

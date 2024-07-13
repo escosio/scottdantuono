@@ -3,18 +3,41 @@ import { Header } from "./components/Header";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
-import About from "./components/About";
+import { Navbar } from "./components/Navbar";
+// import About from "./components/About";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      {/* TODO add carrots to open section bodies */}
-      <Projects />
-      <Skills />
-      {/* <About /> */}
+      {/* <Navbar /> */}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+              <Projects />
+              <Skills />
+            </>
+          }
+        />
+        <Route path="/projects" element={<Projects />}>
+          Test
+        </Route>
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/skills" element={<Skills />} />
+      </Routes>
       <footer>
-        <p>Made with React.js in 2023 | <a style={{"color":"white"}} href="https://github.com/escosio/scottdantuono">github</a> </p>
+        <p>
+          Made with React.js in 2023 |{" "}
+          <a
+            style={{ color: "white" }}
+            href="https://github.com/escosio/scottdantuono"
+          >
+            github
+          </a>
+        </p>
       </footer>
     </div>
   );

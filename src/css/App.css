@@ -1,10 +1,10 @@
 .App {
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .App p {
-  margin: 2% 20%;
+  margin: 2% 10%;
 }
 
 @keyframes App-logo-spin {
@@ -19,8 +19,12 @@
 /* My stuff */
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Header */
@@ -33,15 +37,14 @@ p.visible {
   animation: fadeIn 4s;
 }
 
-.bio-paragraph {
-  max-width: 70%;
-  /* margin: auto; */
-  display: inline-block;
-  text-align: center;
+nav {
+  display: block;
+  margin: auto;
+  padding: 1%;
 }
 
-.menu {
-  text-align: right;
+nav li {
+  margin: 20px;
 }
 
 .fade-in-text.visible {
@@ -85,8 +88,8 @@ nav li {
 
 .section h2 {
   border-radius: 10px;
-  padding: .5% 2% .5%;
-  display:inline-block;
+  padding: 0.5% 2% 0.5%;
+  display: inline-block;
 }
 
 button {
