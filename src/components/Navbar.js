@@ -15,10 +15,10 @@ export const Navbar = () => {
           <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/skills">Skills</Link>
         </li>
         <li>
-          <Link to="/skills">Skills</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
