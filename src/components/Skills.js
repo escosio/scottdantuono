@@ -1,9 +1,9 @@
 import React from "react";
 
 export const Skills = () => {
-    const langs = ["Python", "React.js", "Javascript", "Kotlin", "Bash"]
-    const tools = ["Cypress.io", "Playwright", "Espresso", "Git", "Jenkins", "Postman", "Github Actions", "AWS", "Docker","Flipper", "VS Code"]
-    const testing = ["Web/API testing", "Mobile testing", "Hardware testing", "Test Planning", "Manual & Automated testing", "Release Managment"]
+    const langs = ["Javascript/Typescript", "Python", "Kotlin", "Bash"]
+    const tools = ["Playwright", "React.js", "Pytest", "Cypress.io", "Espresso", "Git", "Jenkins", "Postman", "Github Actions", "AWS", "VS Code"]
+    const testing = ["QA Automation", "API testing", "Mobile testing", "Hardware testing", "Release Managment"]
     return(
         <div id="skills" className="skills section">
             <h2>Skills <i class="fa-solid fa-screwdriver-wrench"></i></h2>
