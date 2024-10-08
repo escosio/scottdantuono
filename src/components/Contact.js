@@ -6,11 +6,6 @@ export const Contact = () => {
   const [formSubmitted, updateFormState] = useState(false);
   const form = useRef();
 
-  function toggleFormState() {
-    updateFormState(!formSubmitted);
-    console.log(formSubmitted);
-  }
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -29,11 +24,12 @@ export const Contact = () => {
           console.log(error.text);
         }
       );
+    updateFormState(true);
   };
 
   return (
     <>
-      <h2>Hit me up</h2>
+      <h2>{!formSubmitted ? "Hit me up" : "Thanks for reaching out!"}</h2>
       {!formSubmitted && (
         <form ref={form} onSubmit={sendEmail} id="contact">
           <input type="text" name="contact_name" placeholder="name" />
@@ -46,12 +42,11 @@ export const Contact = () => {
           <input
             type="submit"
             className="submitButton"
-            onClick={toggleFormState}
           />
           <SocialLinks />
         </form>
       )}
-      {formSubmitted && <h3>Thanks for reaching out!</h3>}
+      // {formSubmitted && <h3>Thanks for reaching out!</h3>}
     </>
   );
 };
