@@ -46,7 +46,6 @@ export const Contact = () => {
           <SocialLinks />
         </form>
       )}
-      // {formSubmitted && <h3>Thanks for reaching out!</h3>}
     </>
   );
 };
