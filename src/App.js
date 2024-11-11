@@ -4,7 +4,7 @@ import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
 import { Navbar } from "./components/Navbar";
-// import About from "./components/About";
+import About from "./components/About";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -27,6 +27,7 @@ function App() {
         </Route>
         <Route path="/contact" element={<Contact />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <footer>
         <p>

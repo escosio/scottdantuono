@@ -8,21 +8,18 @@ const About = () => {
       <h3>About Me</h3>
       <div className="about-container">
         <div>
-          <p>
-            Thank you for visiting. I live in NYC with my family and would love
-            to add to my project
-          </p>
+          <p>Thank you for visiting. I live in NYC with my family.</p>
+          <p></p>
         </div>
         <div>
-
-        <img
-          src={me}
-          alt="about_pic"
-          className="selfpic"
-          height="250"
-          width="250"
+          <img
+            src={me}
+            alt="about_pic"
+            className="selfpic"
+            height="250"
+            width="250"
           />
-          </div>
+        </div>
       </div>
     </div>
   );
