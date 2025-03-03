@@ -4,6 +4,11 @@ import "../css/Projects.css";
 export const Projects = () => {
   const projects = [
     {
+      title: "Standup tool",
+      desc: "Daily standup tool that we used at my company for months! Updated for the Dunder Mifflin team. ",
+      link: "https://standup-tool.vercel.app/"
+    },
+    {
       title: "Meals & Recipes (Web)",
       desc: "Reciprocal to the iOS app but in React.js so I don't have to get an Apple Developer license. Mostly using React Bootstrap.",
       link: "https://meals-and-recipes-web.vercel.app/",
