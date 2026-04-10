@@ -1,11 +1,11 @@
 import React from "react";
-import resume from "../assets/scott_dantuono_resume.pdf";
+
 
 function SocialLinks() {
   return (
     <div className="socialLinks">
       <li>
-        <a href="https://www.linkedin.com/in/sdantuono/" target="_blank">
+        <a href="https://www.linkedin.com/in/sdantuono/" target="_blank" rel="noreferrer">
           <i class="fa-brands fa-linkedin" style={{ color: "#000000" }}></i>
         </a>
       </li>
@@ -15,7 +15,7 @@ function SocialLinks() {
         </a>
       </li>
       {/* <li>
-        <a href="mailto: scottd26@gmail.com" target="_blank">
+        <a href="mailto: scottd26@gmail.com" target="_blank" rel="noreferrer">
           <i class="fa-regular fa-envelope"></i>
         </a>
       </li> */}
