@@ -34,28 +34,41 @@ export const Skills = () => {
   return (
     <div id="skills" className="skills section">
       <h2>
-        Skills <i class="fa-solid fa-screwdriver-wrench"></i>
+        Skills <i className="fa-solid fa-screwdriver-wrench"></i>
       </h2>
-      <ul className="skill-list">
+
+      <div className="skill-category">
         <h3>Languages</h3>
-        {langs.map((lang, i) => (
-          <li key={i} className="skill-item">
-            {lang}
-          </li>
-        ))}
+        <ul className="skill-list">
+          {langs.map((lang, i) => (
+            <li key={i} className="skill-item">
+              {lang}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="skill-category">
         <h3>Tools</h3>
-        {tools.map((tool, i) => (
-          <li key={i} className="skill-item">
-            {tool}
-          </li>
-        ))}
+        <ul className="skill-list">
+          {tools.map((tool, i) => (
+            <li key={i} className="skill-item">
+              {tool}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="skill-category">
         <h3>Testing</h3>
-        {testing.map((qaSkill, i) => (
-          <li key={i} className="skill-item testing-skill">
-            {qaSkill}
-          </li>
-        ))}
-      </ul>
+        <ul className="skill-list">
+          {testing.map((qaSkill, i) => (
+            <li key={i} className="skill-item testing-skill">
+              {qaSkill}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

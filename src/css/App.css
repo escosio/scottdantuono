@@ -31,6 +31,59 @@
 }
 
 /* Header */
+.header {
+  padding: 3rem 1.5rem 2rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 1rem 0 0.25rem;
+  color: #111;
+}
+
+.bio-pic {
+  border-radius: 50%;
+  border: 3px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header .subtext {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+  margin: 0.75rem auto 1rem;
+  max-width: 600px;
+}
+
+.header .subtext a {
+  color: #111;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.header .subtext a:hover {
+  text-decoration: underline;
+}
+
+.bio-paragraph {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #555;
+  max-width: 600px;
+  margin: 0.5rem auto 0;
+}
+
+.bio-paragraph a {
+  color: #111;
+  text-decoration: underline;
+}
+
+.bio-paragraph a:hover {
+  text-decoration: underline;
+}
+
 p {
   opacity: 70%;
   animation: fadeIn 4s;
@@ -77,11 +130,6 @@ nav li {
   opacity: 70%;
 }
 
-/* .header {
-  background-image: url("../assets/me.png");
-  opacity: 12%;
-} */
-
 /* Sections */
 
 .section {
@@ -109,22 +157,61 @@ ul {
   padding: 0;
 }
 
+.skills {
+  padding: 2% 5%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .skill-list {
-  display: flexbox;
-  text-align: left;
-  margin: auto 20%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.skill-category {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.skill-category h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.75rem;
+  color: #333;
+  border-bottom: 2px solid gold;
+  padding-bottom: 0.25rem;
+  display: inline-block;
 }
 
 .skill-item {
   display: inline-flex;
-  padding: 2%;
+  align-items: center;
+  padding: 0.5rem 1rem;
   background-color: gold;
-  border-radius: 10%;
-  margin: 1.5%;
+  border-radius: 20px;
+  margin: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .skill-item:hover {
-  color: white;
+  background-color: #1a1a1a;
+  color: gold;
+  transform: translateY(-2px);
+}
+
+.testing-skill {
+  background-color: #1a1a1a;
+  color: gold;
+}
+
+.testing-skill:hover {
+  background-color: gold;
+  color: #1a1a1a;
 }
 
 /* footer */
