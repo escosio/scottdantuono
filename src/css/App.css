@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App p {
@@ -151,6 +154,10 @@ ul {
   width: 80%;
   margin: 4% auto;
   background-color: gold;
+}
+
+.main-content {
+  flex: 1;
 }
 
 footer {

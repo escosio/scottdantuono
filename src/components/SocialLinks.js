@@ -14,16 +14,16 @@ function SocialLinks() {
           <i class="fa-brands fa-github" style={{ color: "#000000" }}></i>
         </a>
       </li>
-      <li>
+      {/* <li>
         <a href="mailto: scottd26@gmail.com" target="_blank">
           <i class="fa-regular fa-envelope"></i>
         </a>
-      </li>
-      <li>
+      </li> */}
+      {/* <li>
         <a href={resume} download="scottdantuono.pdf">
           <i class="fa-solid fa-file"></i>
         </a>
-      </li>
+      </li> */}
     </div>
   );
 }

@@ -6,7 +6,12 @@ export const Projects = () => {
     {
       title: "Standup tool",
       desc: "Daily standup tool that we used at my company for months! Updated for the Dunder Mifflin team. ",
-      link: "https://standup-tool.vercel.app/"
+      link: "https://standup-tool.vercel.app/",
+    },
+    {
+      title: "Fantasy Baseball Keepers",
+      desc: "A tool for my fantasy baseball keeper league to access their players from past seasons.",
+      link: "https://two-hour-schmooze-react.vercel.app/",
     },
     {
       title: "Meals & Recipes (Web)",
@@ -22,11 +27,6 @@ export const Projects = () => {
       title: "Alejo Minis",
       desc: "React site for a friend mini painter, includes an EmailJS contact form to help arrange commissions.",
       link: "https://alejo-minis.vercel.app/",
-    },
-    {
-      title: "Fantasy Baseball Keepers",
-      desc: "A tool for my fantasy baseball keeper league to access their players from past seasons.",
-      link: "https://two-hour-schmooze-react.vercel.app/",
     },
     {
       title: "Espresso Practice",

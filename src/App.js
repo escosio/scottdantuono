@@ -11,24 +11,26 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Header />
-              <Projects />
-              <Skills />
-            </>
-          }
-        />
-        <Route path="/projects" element={<Projects />}>
-          Test
-        </Route>
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+      <main className="main-content">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Header />
+                <Projects />
+                <Skills />
+              </>
+            }
+          />
+          <Route path="/projects" element={<Projects />}>
+            Test
+          </Route>
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </main>
       <footer>
         <p>
           Made with React.js in 2023 |{" "}
