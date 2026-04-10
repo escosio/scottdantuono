@@ -53,17 +53,25 @@ export const Projects = () => {
   return (
     <div id="projects" className="section project-card-container">
       <h2>
-        Projects <i class="fa-solid fa-code-branch"></i>
+        Projects <i className="fa-solid fa-code-branch"></i>
       </h2>
       <p>Here are some things I have been working on:</p>
-      {projects.map((project, i) => (
-        <a href={project.link} key={i} target="_blank">
-          <div key={i} className="project-card">
-            <h3>{project.title}</h3>
-            <p>{project.desc}</p>
-          </div>
-        </a>
-      ))}
+      <div className="project-grid">
+        {projects.map((project, i) => (
+          <a
+            href={project.link}
+            key={i}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card-link"
+          >
+            <div className="project-card">
+              <h3>{project.title}</h3>
+              <p>{project.desc}</p>
+            </div>
+          </a>
+        ))}
+      </div>
     </div>
   );
 };
