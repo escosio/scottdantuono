@@ -12,7 +12,7 @@ export const Experience = () => {
         { title: "Senior QA Engineer", dates: "Feb 2024 – May 2026" },
       ],
       summary:
-        "Built the Playwright automation framework and CI gates for the React app and a Pytest suite for the planning engine API, then moved into managing the team.",
+        "Built the Playwright automation framework and CI gates for the React app and a Pytest suite for the planning engine API. Now managing the team and using Claude Code daily to build, test and ship.",
     },
     {
       company: "Peloton",
