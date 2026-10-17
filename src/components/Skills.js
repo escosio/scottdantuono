@@ -19,6 +19,8 @@ export const Skills = () => {
   ];
 
   const practice = [
+    "Project and launch management",
+    "Platform migrations",
     "Test strategy across teams",
     "Release management",
     "On-call and release training",
