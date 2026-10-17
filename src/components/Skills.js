@@ -2,40 +2,39 @@ import React from "react";
 import "../css/Skills.css";
 
 export const Skills = () => {
-  const langs = ["Javascript/Typescript", "Python", "Kotlin", "Bash", "Swift"];
+  const langs = ["Javascript/Typescript", "Python", "Kotlin", "Swift"];
 
   const tools = [
     "Playwright",
-    "React",
-    "Pytest",
-    "Vitest",
     "Cypress.io",
+    "Pytest",
     "Espresso",
     "XCUITest",
-    "Git",
-    "Jenkins",
-    "Postman",
+    "React",
+    "Claude Code",
     "Github Actions",
+    "Jenkins",
     "AWS",
-    "JIRA",
     "Qase.io",
-    "TestRail",
   ];
 
-  const testing = [
-    "QA Automation",
-    "API Testing",
-    "Mobile Testing",
-    "E2E Testing",
-    "CI/CD Integration",
-    "Test Framework Architecture",
-    "Release Management",
-    "Unit Tests",
+  const practice = [
+    "Test strategy across teams",
+    "Release management",
+    "On-call and release training",
+    "Test framework architecture",
+    "CI/CD integration",
+    "AI-assisted development",
+    "QA automation",
+    "API testing",
+    "Mobile testing",
+    "E2E testing",
   ];
+
   const groups = [
     ["Languages", langs],
     ["Tools", tools],
-    ["Testing", testing],
+    ["Practice", practice],
   ];
 
   return (
