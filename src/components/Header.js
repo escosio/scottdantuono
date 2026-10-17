@@ -23,17 +23,6 @@ export const Header = () => {
           and tools to solve problems and make everyone's life easier. I live
           in Brooklyn, NY. Previously at Peloton, SeatGeek and Meetup.
         </p>
-        <p className="bio-paragraph">
-          Lately I've been studying algorithms, AWS, web automation with{" "}
-          <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-faeec6b3-cae5-453e-be78-b6aaf13ebf84.jpg">
-            Cypress.io &amp; Playwright
-          </a>
-          , and{" "}
-          <a href="https://www.udemy.com/course/the-ultimate-react-course/">
-            React
-          </a>
-          .
-        </p>
         <SocialLinks />
       </div>
     </header>

@@ -42,10 +42,6 @@
   font-size: 1.2rem;
 }
 
-.hero .bio-paragraph {
-  color: var(--muted);
-}
-
 .hero .socialLinks {
   margin-top: 0.5rem;
 }
