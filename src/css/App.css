@@ -11,23 +11,8 @@
 /* ---------- Navigation ---------- */
 .nav {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 1.25rem 0;
-}
-
-.nav-brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.nav-brand img {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
 }
 
 .nav ul {

@@ -19,8 +19,8 @@ function App() {
             element={
               <>
                 <Header />
-                <Experience />
                 <Projects />
+                <Experience />
                 <Skills />
               </>
             }
