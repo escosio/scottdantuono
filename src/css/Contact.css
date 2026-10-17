@@ -1,0 +1,47 @@
+.contact-form {
+  display: grid;
+  gap: 1rem;
+  max-width: 480px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  background: #fff;
+  border: 1.5px solid var(--ink);
+  border-radius: 0;
+}
+
+.contact-form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--muted);
+}
+
+.contact-form .submitButton {
+  justify-self: start;
+  padding: 0.75rem 1.5rem;
+  background: var(--yellow);
+  border: 1.5px solid var(--ink);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.contact-form .submitButton:hover {
+  background: var(--ink);
+  color: var(--yellow);
+}
+
+.contact-form .socialLinks {
+  margin-top: 0.5rem;
+}
+
+.contact-thanks {
+  max-width: var(--measure);
+  color: var(--muted);
+}

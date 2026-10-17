@@ -23,24 +23,22 @@ function App() {
               </>
             }
           />
-          <Route path="/projects" element={<Projects />}>
-            Test
-          </Route>
+          <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </main>
       <footer>
-        <p>
-          Made with React.js in 2023 |{" "}
-          <a
-            style={{ color: "white" }}
-            href="https://github.com/escosio/scottdantuono"
-          >
-            github
-          </a>
-        </p>
+        <div className="page">
+          <p>
+            Made with React in Brooklyn.{" "}
+            <a href="https://github.com/escosio/scottdantuono">
+              Source on GitHub
+            </a>
+            .
+          </p>
+        </div>
       </footer>
     </div>
   );

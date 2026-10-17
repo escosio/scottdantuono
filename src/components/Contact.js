@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import SocialLinks from "./SocialLinks";
+import "../css/Contact.css";
 
 export const Contact = () => {
   const [formSubmitted, updateFormState] = useState(false);
@@ -28,24 +29,37 @@ export const Contact = () => {
   };
 
   return (
-    <>
-      <h2>{!formSubmitted ? "Hit me up" : "Thanks for reaching out!"}</h2>
-      {!formSubmitted && (
-        <form ref={form} onSubmit={sendEmail} id="contact">
-          <input type="text" name="contact_name" placeholder="name" />
-          <input type="email" name="contact_email" placeholder="email" />
-          <textarea
-            name="message"
-            placeholder="Write a message"
-            style={{ "font-family": "inherit" }}
-          />
-          <input
-            type="submit"
-            className="submitButton"
-          />
-          <SocialLinks />
-        </form>
-      )}
-    </>
+    <section className="section page">
+      <h2>Contact</h2>
+      <div>
+        {formSubmitted ? (
+          <p className="contact-thanks">
+            Thanks for reaching out. I'll get back to you soon.
+          </p>
+        ) : (
+          <form ref={form} onSubmit={sendEmail} className="contact-form">
+            <input
+              type="text"
+              name="contact_name"
+              placeholder="Your name"
+              aria-label="Your name"
+            />
+            <input
+              type="email"
+              name="contact_email"
+              placeholder="Your email"
+              aria-label="Your email"
+            />
+            <textarea
+              name="message"
+              placeholder="Write a message"
+              aria-label="Message"
+            />
+            <input type="submit" className="submitButton" value="Send message" />
+            <SocialLinks />
+          </form>
+        )}
+      </div>
+    </section>
   );
 };

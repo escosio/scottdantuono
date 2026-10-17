@@ -50,28 +50,30 @@ export const Projects = () => {
     },
   ];
 
+  const hostOf = (url) => new URL(url).hostname;
+
   return (
-    <div id="projects" className="section project-card-container">
-      <h2>
-        Projects <i className="fa-solid fa-code-branch"></i>
-      </h2>
-      <p>Here are some things I have been working on:</p>
-      <div className="project-grid">
-        {projects.map((project, i) => (
-          <a
-            href={project.link}
-            key={i}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-card-link"
-          >
-            <div className="project-card">
-              <h3>{project.title}</h3>
-              <p>{project.desc}</p>
-            </div>
-          </a>
-        ))}
+    <section id="projects" className="section page">
+      <h2>Projects</h2>
+      <div>
+        <p className="project-intro">Some things I've been working on.</p>
+        <ul className="project-list">
+          {projects.map((project) => (
+            <li key={project.link}>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-row"
+              >
+                <h3>{project.title}</h3>
+                <span className="project-host">{hostOf(project.link)}</span>
+                <p>{project.desc}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
-    </div>
+    </section>
   );
 };

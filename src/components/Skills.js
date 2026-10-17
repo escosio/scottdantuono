@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/Skills.css";
 
 export const Skills = () => {
   const langs = ["Javascript/Typescript", "Python", "Kotlin", "Bash", "Swift"];
@@ -31,44 +32,27 @@ export const Skills = () => {
     "Release Management",
     "Unit Tests",
   ];
+  const groups = [
+    ["Languages", langs],
+    ["Tools", tools],
+    ["Testing", testing],
+  ];
+
   return (
-    <div id="skills" className="skills section">
-      <h2>
-        Skills <i className="fa-solid fa-screwdriver-wrench"></i>
-      </h2>
-
-      <div className="skill-category">
-        <h3>Languages</h3>
-        <ul className="skill-list">
-          {langs.map((lang, i) => (
-            <li key={i} className="skill-item">
-              {lang}
-            </li>
-          ))}
-        </ul>
+    <section id="skills" className="section page">
+      <h2>Skills</h2>
+      <div className="skill-columns">
+        {groups.map(([name, items]) => (
+          <div className="skill-category" key={name}>
+            <h3>{name}</h3>
+            <ul>
+              {items.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
-
-      <div className="skill-category">
-        <h3>Tools</h3>
-        <ul className="skill-list">
-          {tools.map((tool, i) => (
-            <li key={i} className="skill-item">
-              {tool}
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <div className="skill-category">
-        <h3>Testing</h3>
-        <ul className="skill-list">
-          {testing.map((qaSkill, i) => (
-            <li key={i} className="skill-item testing-skill">
-              {qaSkill}
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
+    </section>
   );
 };

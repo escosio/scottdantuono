@@ -1,25 +1,26 @@
 import React from "react";
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import me from "../assets/me.png";
 
 export const Navbar = () => {
-  const [menuOpen, toggleMenuState] = useState(false);
-
   return (
-    <nav onClick={() => toggleMenuState(!menuOpen)} className="menu">
+    <nav className="nav page" aria-label="Main">
+      <NavLink to="/" end className="nav-brand">
+        <img src={me} alt="" />
+        Scott D.
+      </NavLink>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink to="/" end>
+            Home
+          </NavLink>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <NavLink to="/projects">Projects</NavLink>
         </li>
         <li>
-          <Link to="/skills">Skills</Link>
+          <NavLink to="/skills">Skills</NavLink>
         </li>
-        {/* <li>
-          <Link to="/contact">Contact</Link>
-        </li> */}
       </ul>
     </nav>
   );
