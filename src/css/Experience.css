@@ -1,0 +1,57 @@
+.job-list {
+  border-top: 1px solid var(--rule);
+}
+
+.job {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.25rem 2rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.job-years {
+  font-size: 0.9rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.job h3 {
+  font-size: 1.2rem;
+}
+
+.job h3 a {
+  text-decoration-color: transparent;
+}
+
+.job h3 a:hover {
+  text-decoration-color: var(--yellow);
+}
+
+.job-roles {
+  margin: 0.15rem 0 0.5rem;
+  font-weight: 500;
+}
+
+.job-role-dates {
+  margin-left: 0.6rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.job-summary {
+  margin: 0;
+  color: var(--muted);
+  max-width: var(--measure);
+}
+
+@media (min-width: 760px) {
+  .job {
+    grid-template-columns: 7rem 1fr;
+  }
+
+  .job-years {
+    padding-top: 0.3rem;
+  }
+}
